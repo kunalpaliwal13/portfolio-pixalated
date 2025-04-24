@@ -93,3 +93,19 @@
 .pixel-text {
   font-family: 'Press Start 2P', cursive;
 }
+
+/* Add new styles for dark mode and animations */
+.pixel-letter {
+  display: inline-block;
+  animation: pixelBounce 0.5s infinite alternate;
+  animation-delay: calc(var(--delay) * 100ms);
+}
+
+@keyframes pixelBounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
