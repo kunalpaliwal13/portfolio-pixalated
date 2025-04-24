@@ -35,7 +35,7 @@ export default {
         },
       },
       backgroundImage: {
-        'tree-scape': "url('/lovable-uploads/4408257c-e079-4e93-9e96-0a396714071c.png')",
+        'mountain-scape': "url('/lovable-uploads/eb8d6cba-3194-4135-b108-d9584801c24e.png')",
       },
     },
   },

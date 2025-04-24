@@ -1,12 +1,12 @@
-
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/Navbar";
 import { ProjectCard } from "@/components/ProjectCard";
+import { Timeline } from "@/components/Timeline";
 
 const Index = () => {
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-tree-scape bg-cover bg-center">
+      <div className="min-h-screen bg-mountain-scape bg-cover bg-center bg-fixed">
         <div className="min-h-screen bg-background/80 backdrop-blur-sm">
           <Navbar />
           
@@ -35,6 +35,13 @@ const Index = () => {
                   title="Project 3"
                   description="A pixel-perfect project with amazing features and cutting-edge technology."
                 />
+              </div>
+            </section>
+
+            <section className="py-20">
+              <h2 className="pixel-text text-2xl mb-12 text-center">About Me</h2>
+              <div className="max-w-4xl mx-auto">
+                <Timeline />
               </div>
             </section>
           </main>
