@@ -98,7 +98,7 @@ export const StyleGuide = () => {
                 </li>
                 <li>
                   <span className="font-semibold">Headers:</span> 
-                  <code className="ml-2 p-1 bg-secondary rounded text-xs">pixel-text text-{size}</code>
+                  <code className="ml-2 p-1 bg-secondary rounded text-xs">pixel-text text-lg</code>
                 </li>
               </ul>
             </div>
