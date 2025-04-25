@@ -16,7 +16,7 @@ const Index = () => {
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen max-w-full bg-[url('/images/gtav.jpg')] bg-cover bg-center bg-fixed md:max-w-lg lg:max-w-full w-[700px]">
+      <div className="min-h-screen max-w-full bg-[url('/images/gtav.jpg')] bg-cover bg-center bg-fixed md:max-w-lg lg:max-w-full ">
         <Navbar />
 
         <main className="container mx-auto px-4 pt-24">
