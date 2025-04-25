@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/portfolio-pixalated/",  // This ensures the app works when deployed to a subdirectory
+  base:  process.env.VITE_BASE_PATH || "/portfolio-pixalated", 
   plugins: [
     react(),
   ],
