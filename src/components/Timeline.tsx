@@ -3,30 +3,25 @@ import { Card } from "./ui/card";
 
 const timelineEvents = [
   {
-    year: "1995",
+    year: "2003",
     title: "Born in India",
-    description: "Started my journey in Mumbai, India"
+    description: "Started my journey in Kota, India"
   },
   {
-    year: "2013",
-    title: "Started Programming",
-    description: "Wrote my first line of code in Java"
+    year: "2021",
+    title: "Started my B.tech",
+    description: "Wrote my first line of code in Python"
   },
   {
-    year: "2017",
-    title: "Bachelor's Degree",
-    description: "Graduated in Computer Science"
-  },
-  {
-    year: "2019",
-    title: "First Tech Job",
-    description: "Started as a Software Engineer"
+    year: " July 2023",
+    title: "Actually started exploring the dev community",
+    description: "Participated in my first hackathon and completed 100 days of code"
   },
   {
     year: "2023",
-    title: "Senior Engineer",
-    description: "Leading development teams"
-  }
+    title: "Got my first internship",
+    description: "Landed my first Data Analyst internship at Preprod Corp"
+  },
 ];
 
 export const Timeline = () => {

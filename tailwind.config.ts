@@ -1,5 +1,7 @@
 
 import type { Config } from "tailwindcss";
+import animate from "tailwindcss-animate";
+
 
 export default {
   darkMode: ["class"],
@@ -46,6 +48,10 @@ export default {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'fade-in-delayed': 'fadeIn 0.5s ease-in-out 0.3s forwards',
         'pixel-bounce': 'pixelBounce 0.5s infinite alternate',
+        marquee: 'marquee 25s linear infinite',
+      'marquee-reverse': 'marquee-reverse 10s linear infinite',
+        'scroll-right': 'scroll-right 25s linear infinite',
+        'scroll-right-reverse': "scroll-right-reverse 10s linear infinite"
       },
       keyframes: {
         fadeIn: {
@@ -56,8 +62,24 @@ export default {
           '0%': { transform: 'translateY(0px)' },
           '100%': { transform: 'translateY(-5px)' },
         },
+        'marquee': {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+        'marquee-reverse': {
+        '0%': { transform: 'translateX(-50%)' },
+        '100%': { transform: 'translateX(0%)' },
+      },
+        'scroll-right': {
+        '0%': { transform: 'translateX(-50%)' },
+        '100%': { transform: 'translateX(0%)' },
+      },
+        'scroll-right-reverse': {
+        '0%': { transform: 'translateX(0%)' },
+        '100%': { transform: 'translateX(-50%)' },
+      },
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animate],
 } satisfies Config;
