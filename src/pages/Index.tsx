@@ -33,7 +33,7 @@ const Index = () => {
               ))}<div style = {{color: "#8df2f7"}} className="">_</div>
             </h1>
             <p className="max-w-2xl text-lg mb-12 text-white/80 animate-fade-in delay-100" style= {{fontWeight: 800, color:"#FFF", textShadow: "5px 5px 4px rgba(0, 0, 0, 0.5)"}}>
-              I'm a software engineer who loves creating pixel-perfect experiences.
+            I’m a software engineer crafting fast, beautiful, and pixel-perfect digital experiences.
             </p>    
                 <div style = {{display: "flex", gap: "20px"}}>
                      <a href="https://twitter.com/kunalpaliwall13" target="_blank"rel="noopener noreferrer">
