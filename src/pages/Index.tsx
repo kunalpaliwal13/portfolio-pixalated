@@ -91,7 +91,7 @@ const Index = () => {
       <section className="py-20">
               <h2 className="pixel-text text-2xl mb-12 text-center text-white" style = {{textShadow: "5px 5px 4px rgba(0, 0, 0, 0.5)"}}>Get in touch</h2>
               <div className=" mx-auto glass rounded-lg p-8" style = {{width: "70%"}}>
-                <p className="text-white/100 text-center mb-8">
+                <p className="text-center mb-8">
                   Feel free to reach out! I'm always open to discussing new projects and opportunities.
                 </p>
                 <ContactForm />
