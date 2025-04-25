@@ -21,7 +21,7 @@ const Index = () => {
 
         <main className="container mx-auto px-4 pt-24">
           <section className="min-h-[80vh] flex flex-col items-center justify-center text-center">
-            <h1 className="pixel-text text-4xl md:text-6xl mb-6 text-white pixel-letter inline-block sm:text-4xl sm:mb-4" style = {{display: "flex"}}>
+          <h1 className="pixel-text text-4xl md:text-6xl mb-6 text-white pixel-letter inline-block sm:text-2xl sm:mb-4" style = {{display: "flex"}}>
               {title.split('').map((letter, index) => (
                 <span 
                   key={index} 
