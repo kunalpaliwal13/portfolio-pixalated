@@ -16,12 +16,12 @@ const Index = () => {
 
   return (
     <ThemeProvider>
-      <div className="min-h-screen bg-[url('/images/gtav.jpg')] bg-cover bg-center bg-fixed">
+      <div className="min-h-screen max-w-full bg-[url('/images/gtav.jpg')] bg-cover bg-center bg-fixed md:max-w-lg lg:max-w-full w-[700px]">
         <Navbar />
 
         <main className="container mx-auto px-4 pt-24">
           <section className="min-h-[80vh] flex flex-col items-center justify-center text-center">
-            <h1 className="pixel-text text-4xl md:text-6xl mb-6 text-white pixel-letter inline-block" style = {{display: "flex"}}>
+            <h1 className="pixel-text text-4xl md:text-6xl mb-6 text-white pixel-letter inline-block sm:text-4xl sm:mb-4" style = {{display: "flex"}}>
               {title.split('').map((letter, index) => (
                 <span 
                   key={index} 
