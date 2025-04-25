@@ -9,6 +9,7 @@ import { Mail, Twitter, Linkedin } from "lucide-react";
 import x from "../../public/images/x.png";
 import mail from "../../public/images/mail.png";
 import linkedin from "../../public/images/linkedin.png";
+import github from "../../public/images/github.png";
 
 const Index = () => {
   const title = "Hello World";
@@ -73,6 +74,16 @@ const Index = () => {
               >
                 <img
                   src={linkedin}
+                  style={{ color: "white", height: "28px" }}
+                ></img>
+              </a>
+              <a
+                href="https://www.github.com/kunalpaliwal13/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={github}
                   style={{ color: "white", height: "28px" }}
                 ></img>
               </a>
