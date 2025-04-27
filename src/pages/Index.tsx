@@ -10,6 +10,7 @@ import x from "../../public/images/x.png";
 import mail from "../../public/images/mail.png";
 import linkedin from "../../public/images/linkedin.png";
 import github from "../../public/images/github.png";
+import medium from "../../public/images/medium.png";
 
 const Index = () => {
   const title = "Hello World";
@@ -84,6 +85,16 @@ const Index = () => {
               >
                 <img
                   src={github}
+                  style={{ color: "white", height: "28px" }}
+                ></img>
+              </a>
+              <a
+                href="https://medium.com/@kunalpaliwal13"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={medium}
                   style={{ color: "white", height: "28px" }}
                 ></img>
               </a>
