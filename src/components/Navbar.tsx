@@ -14,10 +14,9 @@ export const Navbar = () => {
           <div className="pixel-text text-lg">
             <Link to="/">kunal.dev</Link>
           </div>
-          <div className="flex items-center space-x-4">
-            
-              
-          </div>
+          <a href="/public/files/KunalPaliwalResume.pdf" download="KunalPaliwalResume.pdf">
+            <button className="hover:text-gray-500">Download Resume</button>
+          </a>
         </div>
       </div>
     </nav>
