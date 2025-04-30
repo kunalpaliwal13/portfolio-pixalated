@@ -14,7 +14,7 @@ export const Navbar = () => {
           <div className="pixel-text text-lg">
             <Link to="/">kunal.dev</Link>
           </div>
-          <a href="/public/KunalPaliwalResume.pdf" download="KunalPaliwalResume.pdf">
+          <a href="/KunalPaliwalResume.pdf" download="KunalPaliwalResume.pdf">
             <button className="hover:text-gray-500">Download Resume</button>
           </a>
         </div>
